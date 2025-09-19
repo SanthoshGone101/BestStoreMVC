@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql3": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/BestStoreMVC/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDatabaseConnection2_04425D0E07",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/beststore/databases/BestStore",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DatabaseConnection2"
+    }
+  }
+}
